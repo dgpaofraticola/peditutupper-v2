@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bienvenido a PEDITUTUPPER donde ofrecemos productos y servicios de alta calidad.">
+    <meta name="keywords" content="productos, servicios, calidad, empresa, tupperware, botellas, portaviandas, taper, cacerolas, taperuere">
+    <meta name="author" content="D.G. Paola Fraticola">
+    <meta name="robots" content="index, follow">
+    <title>Peditutupper, sólo a un click de distancia </title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-..." crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-..."
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #6f42c1;">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/logo-peditutupper.png" width="60" height="60" alt="Logo Peditutupper"> Peditutupper
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#productos">Productos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#resenas">Reseñas</a></li>
+                        <li class="nav-item"><a class="nav-link" href="form.html">Contacto</a></li>
+                    </ul>
+                    <form class="d-flex ms-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                        <button class="btn btn-outline-light" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <!--Carrousel utilizando boostrap-->
+
+        <section class="hero">
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/tupper-carro01.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <div class="carousel-caption-content">
+                                <h5>Porta Viandas</h5>
+                                <p>No importa a donde tengas que ir, siempre te acompañan</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/tupper-carro02.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <div class="carousel-caption-content">
+                                <h5>Amplia gama de colores</h5>
+                                <p>Uno para cada momento de tu vida</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/tupper-carro03.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <div class="carousel-caption-content">
+                                <h5>Para tu alacena</h5>
+                                <p>No existe la humedad para nosotros</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <section id="productos" class="productos container my-5">
+        <h1>Peditutupper, todo Tupperware para vos.</h1>
+
+        <h3>Buscá por categoría:</h3>
+        <div class="categorias-container mb-4">
+            <div class="categoria-card">Beber</div>
+            <div class="categoria-card">Almacenar</div>
+            <div class="categoria-card">Heladera</div>
+            <div class="categoria-card">Freezer</div>
+            <div class="categoria-card">Transportar</div>
+            <div class="categoria-card">Cocinar</div>
+        </div>
+        <h3>Ofertas:</h3>
+
+        <div class="productos-container d-flex flex-wrap justify-content-between">
+            <div class="card">
+                <img src="img/ECOFUCSIACONLOGO_600x.webp" class="card-img-top" alt="Producto 1">
+                <div class="card-body">
+                    <h5 class="card-title">Eco Twist con pico 500 ml</h5>
+                    <p class="card-text">DBotella con tapa y pico para bebe con facilidad. Incluye correa para sujetarla
+                        en la mochila, bolso o cartera. Elegí tu color favorito y llevala a todos lados No apta para
+                        freezer, bebidas calientes ni gaseosas.</p>
+                        <p class="precio">$ 9.999</p> 
+                        <button class="btn btn-primary agregar-carrito">Agregar al carrito</button> 
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/aquavibe-lila.jpg" class="card-img-top" alt="Producto 2">
+                <div class="card-body">
+                    <h5 class="card-title">Eco AquaVibe 2 litros LILA</h5>
+                    <p class="card-text">Perfecta para que alcances tu objetivo diario de hidratación fácilmente. No apta para bebidas gaseosas ni freezer. Manija resistente para trasladar. Diseño con escala de medidas en su dorso.</p>
+                    <p class="precio">$ 24.999</p> 
+                    <button class="btn btn-primary agregar-carrito">Agregar al carrito</button> 
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/635496-DISNEY_BOT_TERM_PICO_MIN_510ML_600x.webp" class="card-img-top" alt="Producto 3">
+                <div class="card-body">
+                    <h5 class="card-title">Disney Botella Térmica con Pico 510 ml</h5>
+                    <p class="card-text">Ideal para transportar y mantener la temperatura de tus bebidas. Con correa,
+                        fácil de transportar. Con doble pared de Acero Inoxidable.</p>
+                        <p class="precio">$ 54.999</p> 
+                        <button class="btn btn-primary agregar-carrito">Agregar al carrito</button> 
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/630948-HERMERICOPOEMEUNICORNIO500ML_600x.webp" class="card-img-top" alt="Producto 4">
+                <div class="card-body">
+                    <h5 class="card-title">Hermético Poeme Kids 500 ml</h5>
+                    <p class="card-text">Para guardar alimentos en la heladera y mantenerlos frescos por mas tiempo. Hay diversos tamaños y colores, con motivos infantiles y para el resto de la familia.
+                        Sello 100 % hermético.</p>
+                        <p class="precio">$ 12.000</p> 
+                        <button class="btn btn-primary agregar-carrito">Agregar al carrito</button> 
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/630503-HERMETICOTOQUEMAGICOHARINA3_1LT_3_600x.webp" class="card-img-top" alt="Producto 5">
+                <div class="card-body">
+                    <h5 class="card-title">Toque Mágico Harina 3,1 lt (1 Kilo)</h5>
+                    <p class="card-text">Para decorar la alacena e identificar su contenido sin necesidad de
+                        abrirlo. Mantiene los alimentos secos y libres de humedad por más tiempo. Cierra automáticamente al presionar el centro y escuchar el “click”. </p>
+                        <p class="precio">$ 31.999</p> 
+                        <button class="btn btn-primary agregar-carrito">Agregar al carrito</button> 
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/639540-CRISTALWAVE_RDO_AZUL_PET_1_5LT_600x.webp" class="card-img-top" alt="Producto 6">
+                <div class="card-body">
+                    <h5 class="card-title">Cristalwave Redondo 1,5 lt Azul Petróleo</h5>
+                    <p class="card-text">Disfrutá almuerzos o cenas como en casa. Cristalwave redondo fue diseñado para
+                        calentar alimentos en microondas. Su válvula de escape permite que el vapor se libere.</p>
+                        <p class="precio">$ 15.500</p> 
+                        <button class="btn btn-primary agregar-carrito">Agregar al carrito</button> 
+                </div>
+            </div>      
+            <div class="categorias-container mb-0  mx-auto">
+                <div class="categoria-card text-center" style="width: 200px;">Ver Más ofertas</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Valoraciones y reseñas de usuarios -->
+    <section id="resenas" class="reseñas container my-5">
+        <h2>Reseñas de Clientes</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="reseña-card">
+                    <p class="estrellas">⭐⭐⭐⭐⭐</p>
+                    <img src="img/avatar1.jpg" alt="Juan Cruz Pereyra" class="avatar">
+                    <h5>Juan Cruz</h5>
+                    <p class="reseña">"¡Excelente calidad de productos! Muy recomendados."</p>
+
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="reseña-card">
+                    <p class="estrellas">⭐⭐⭐⭐⭐</p>
+                    <img src="img/avatar2.jpg" alt="Lidia Martinez" class="avatar">
+                    <h5>Lidia</h5>
+                    <p class="reseña">"Muy buena atención y productos duraderos."</p>
+
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="reseña-card">
+                    <p class="estrellas">⭐⭐⭐⭐⭐</p>
+                    <img src="img/avatar4.jpg" alt="Antonella" class="avatar">
+                    <h5>Antonella</h5>
+                    <p class="reseña">"Entrega rápida y productos hermosos."</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <span>Talento Tech - JS - C24225</span>
+
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/peditutupper" target="_blank"><i
+                            class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/peditutupper" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.tiktok.com/@peditutupper" target="_blank"><i class="fab fa-tiktok"></i></a>
+                    <!-- <a href="https://www.youtube.com/c/peditutupper" target="_blank"><i class="fab fa-youtube"></i></a> NO ARME UN CANAL-->
+                </div>
+                <span> <a class="nav-link" href="mailto:paofraticola@gmail.com">Diseñado por DG PaoFraticola</a></span>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
