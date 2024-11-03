@@ -39,6 +39,7 @@ Peditutupper es una página web donde los usuarios pueden ver productos Tupperwa
 
 ## Características  
 
+0. **Se añade favicon a todos los htmls
 1. **Página de Inicio** 🏠: Carrusel de imágenes destacando productos populares. *(Bootstrap y Flex)*
 2. **Sección de Productos** 🛍️: Visualización de productos Tupperware con descripciones y selección de categorías. Incluye opción de ver más. *(Flex)*
 3. **Sección de Reseñas** ⭐: Valoraciones de clientes para reforzar la confianza de futuros compradores. *(Grid y CSS para avatares redondeados)*
