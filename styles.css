@@ -1,0 +1,463 @@
+/* Estilos globales */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+button,
+input,
+textarea {
+    font-family: 'Poppins', sans-serif;
+}
+
+body,
+html {
+    display: flex;
+    flex-direction: column;
+    min-height: 80vh;
+    margin: 0;
+    height: 100%;
+
+
+}
+
+h1 {
+    text-align: center;
+    color: #5a33a3;
+    font-family: 'Poppins';
+    margin-bottom: 30px;
+}
+
+nav {
+    background-color: #6f42c1;
+}
+
+li {
+    padding: 15px;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff !important;
+    opacity: 1;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #FFA500 !important;
+}
+
+.navbar .form-control {
+    width: 150px;
+}
+
+#carouselExampleCaptions {
+    height: 50vh;
+}
+
+.carousel-inner {
+    height: 50vh;
+}
+
+.carousel-item img {
+    height: 50vh;
+    width: 50vh;
+    object-fit: cover;
+}
+
+.carousel-caption h5 {
+    color: black;
+    font-size: 1.5rem;
+}
+
+.carousel-caption p {
+    color: black;
+    font-size: 1rem;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(119, 13, 172, 0.5);
+    border-radius: 20%;
+}
+
+.carousel-caption-content {
+    background-color: #6f42c1;
+    padding: 1rem;
+    border-radius: 8px;
+    color: #fff;
+    opacity: 0.9;
+    width: 20%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.carousel-caption-content h5,
+.carousel-caption-content p {
+    color: #fff;
+}
+
+.carousel-caption {
+    bottom: 10%;
+    text-align: center;
+}
+
+.productos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    flex: 0 1 calc(33.33% - 1rem);
+    margin-bottom: 1rem;
+}
+
+.categorias-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.categoria-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: white;
+    border: 1px solid rgba(190, 190, 190, 0.521);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    flex: 1;
+    max-width: 250px;
+    transition: background-color 0.3s;
+}
+
+.categoria-card:hover {
+    background-color: #faf2f5;
+}
+
+.precio {
+    font-size: 1.6em;
+    color: rgb(165, 6, 91);
+    margin: 10px 0;
+}
+
+.agregar-carrito {
+    width: 50%;
+}
+
+.reseñas .reseña-card {
+    text-align: center;
+    padding: 10px;
+}
+
+.reseñas .avatar {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.estrellas {
+    font-size: 25px;
+    margin: 5px 15px;
+}
+
+.contacto {
+    display: flex;
+    gap: 20px;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background-color: #000;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: #1e2014;
+}
+
+.form-container {
+    flex: 1;
+}
+
+video {
+    height: 0.9em;
+    width: 0.9em;
+}
+
+.btn-primary {
+    background-color: #6f42c1;
+    border: 1px solid #6f42c1;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #5a33a3;
+    border-color: #5a33a3;
+    color: white;
+}
+
+.btn-primary:active {
+    background-color: white !important;
+    border-color: #6f42c1 !important;
+    color: #6f42c1 !important;
+}
+
+.main {
+    flex: 1;
+}
+
+.footer {
+    margin-top: auto;
+    width: 100%;
+    background-color: #6f42c1;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 15px 0;
+    height: auto;
+    margin-bottom: 0;
+}
+
+.footer-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-icons a {
+    color: white;
+    margin-left: 15px;
+    font-size: 1.5em;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #f89d3e;
+}
+
+
+/*Voy con el deslizador para el boton de modos claro y oscuro*/
+
+.form-and-toggle {
+    display: flex;
+    align-items: center;
+    /* Alinea verticalmente el contenido */
+}
+
+.toggle-container {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+}
+
+.toggle-container input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.toggle-label {
+    position: absolute;
+    cursor: pointer;
+    border: 1px solid rgb(237, 237, 237);
+    /* Borde inicial para modo claro */
+    background-color: transparent;
+    border-radius: 30px;
+    width: 100%;
+    height: 100%;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5px;
+}
+
+.toggle-icon {
+    font-size: 1.2rem;
+    color: black;
+    transition: transform 0.3s ease, opacity 0.3s ease, color 0.3s ease;
+}
+
+.sun {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.moon {
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+.toggle-container input:checked+.toggle-label {
+    border-color: white;
+}
+
+.toggle-container input:checked+.toggle-label .sun {
+    transform: translateX(100%);
+    opacity: 0;
+}
+
+.toggle-container input:checked+.toggle-label .moon {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.toggle-container input:checked+.toggle-label .toggle-icon {
+    color: white;
+}
+
+
+
+
+/* Comienzo modo oscuro */
+.dark-mode {
+    background-color: #121212;
+    color: #f1f1f1;
+}
+
+.dark-mode h1 {
+    color: #f1f1f1;
+}
+
+.dark-mode header {
+    background-color: #333;
+}
+
+/* Modo oscuro para el header */
+.dark-mode .navbar {
+    background-color: #333 !important;
+    /* Fondo oscuro */
+    color: white;
+    /* Texto blanco */
+}
+
+.dark-mode .nav-link {
+    color: #ddd !important;
+    /* Color más claro para enlaces */
+}
+
+.dark-mode .nav-link:hover {
+    color: #FFA500 !important;
+    /* Color naranja en hover */
+}
+
+.dark-mode .form-control {
+    background-color: #ffffff;
+    color: white;
+    border-color: #555;
+}
+
+.dark-mode .btn-outline-light {
+    border-color: #ddd;
+    color: #ddd;
+}
+
+.dark-mode .btn-outline-light:hover {
+    border-color: #FFA500;
+    color: #FFA500;
+}
+
+.dark-mode footer {
+    background-color: #333;
+}
+
+.dark-mode .card {
+    border-color: #555;
+}
+
+.dark-mode .mode-toggle {
+    background: #333;
+    color: #f1f1f1;
+}
+
+.dark-mode .categoria-card,
+.agregar-carrito {
+    background: #333;
+    color: #f1f1f1;
+}
+
+.dark-mode .carousel-caption-content {
+    background: #333;
+    color: #f1f1f1;
+}
+
+
+/* Estilo normal del header */
+#topnav {
+    background-color: #6f42c1;
+    /* Violeta */
+    color: white;
+}
+
+/* Estilo en modo oscuro */
+.dark-mode #topnav {
+    background-color: #333;
+    /* Color oscuro para el fondo */
+    color: white;
+    /* Asegura que el texto sea legible */
+}
+
+.dark-mode .nav-link {
+    color: #ddd;
+    /* Color más claro para los enlaces */
+}
+
+.dark-mode .btn-outline-light {
+    border-color: #ddd;
+    color: #ddd;
+}
+
+
+
+
+/* Estilos para pantallas más pequeñas */
+@media (max-width: 768px) {
+    .card {
+        flex: 0 1 calc(50% - 1rem);
+    }
+
+    .categoria-card {
+        font-size: 0.9em;
+        padding: 8px;
+    }
+}
+
+@media (max-width: 576px) {
+    .card {
+        flex: 0 1 100%;
+    }
+
+    .categoria-card {
+        font-size: 0.8em;
+        padding: 6px;
+    }
+}

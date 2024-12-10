@@ -2,6 +2,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 body,
@@ -23,8 +24,11 @@ body,
 html {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 80vh;
     margin: 0;
+    height: 100%;
+
+
 }
 
 h1 {
@@ -224,15 +228,22 @@ video {
     color: #6f42c1 !important;
 }
 
+.main {
+    flex: 1;
+}
+
 .footer {
     margin-top: auto;
     width: 100%;
     background-color: #6f42c1;
     color: white;
-    padding: 10px 20px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    text-align: center;
+    padding: 15px 0;
+    height: auto;
+    margin-bottom: 0;
 }
 
 .footer-content {
@@ -257,7 +268,8 @@ video {
 
 .form-and-toggle {
     display: flex;
-    align-items: center; /* Alinea verticalmente el contenido */
+    align-items: center;
+    /* Alinea verticalmente el contenido */
 }
 
 .toggle-container {
@@ -276,7 +288,8 @@ video {
 .toggle-label {
     position: absolute;
     cursor: pointer;
-    border: 1px solid rgb(237, 237, 237); /* Borde inicial para modo claro */
+    border: 1px solid rgb(237, 237, 237);
+    /* Borde inicial para modo claro */
     background-color: transparent;
     border-radius: 30px;
     width: 100%;
@@ -304,21 +317,21 @@ video {
     opacity: 0;
 }
 
-.toggle-container input:checked + .toggle-label {
+.toggle-container input:checked+.toggle-label {
     border-color: white;
 }
 
-.toggle-container input:checked + .toggle-label .sun {
+.toggle-container input:checked+.toggle-label .sun {
     transform: translateX(100%);
     opacity: 0;
 }
 
-.toggle-container input:checked + .toggle-label .moon {
+.toggle-container input:checked+.toggle-label .moon {
     transform: translateX(0);
     opacity: 1;
 }
 
-.toggle-container input:checked + .toggle-label .toggle-icon {
+.toggle-container input:checked+.toggle-label .toggle-icon {
     color: white;
 }
 
@@ -336,20 +349,25 @@ video {
 }
 
 .dark-mode header {
-    background-color: #333 ;
+    background-color: #333;
 }
+
 /* Modo oscuro para el header */
 .dark-mode .navbar {
-    background-color: #333 !important; /* Fondo oscuro */
-    color: white; /* Texto blanco */
+    background-color: #333 !important;
+    /* Fondo oscuro */
+    color: white;
+    /* Texto blanco */
 }
 
 .dark-mode .nav-link {
-    color: #ddd !important; /* Color más claro para enlaces */
+    color: #ddd !important;
+    /* Color más claro para enlaces */
 }
 
 .dark-mode .nav-link:hover {
-    color: #FFA500 !important; /* Color naranja en hover */
+    color: #FFA500 !important;
+    /* Color naranja en hover */
 }
 
 .dark-mode .form-control {
@@ -381,13 +399,13 @@ video {
     color: #f1f1f1;
 }
 
-.dark-mode .categoria-card, .agregar-carrito{
+.dark-mode .categoria-card,
+.agregar-carrito {
     background: #333;
     color: #f1f1f1;
 }
 
-.dark-mode .carousel-caption-content 
-{
+.dark-mode .carousel-caption-content {
     background: #333;
     color: #f1f1f1;
 }
@@ -395,25 +413,29 @@ video {
 
 /* Estilo normal del header */
 #topnav {
-    background-color: #6f42c1; /* Violeta */
+    background-color: #6f42c1;
+    /* Violeta */
     color: white;
-  }
-  
-  /* Estilo en modo oscuro */
-  .dark-mode #topnav {
-    background-color: #333; /* Color oscuro para el fondo */
-    color: white; /* Asegura que el texto sea legible */
-  }
-  
-  .dark-mode .nav-link {
-    color: #ddd; /* Color más claro para los enlaces */
-  }
-  
-  .dark-mode .btn-outline-light {
+}
+
+/* Estilo en modo oscuro */
+.dark-mode #topnav {
+    background-color: #333;
+    /* Color oscuro para el fondo */
+    color: white;
+    /* Asegura que el texto sea legible */
+}
+
+.dark-mode .nav-link {
+    color: #ddd;
+    /* Color más claro para los enlaces */
+}
+
+.dark-mode .btn-outline-light {
     border-color: #ddd;
     color: #ddd;
-  }
-  
+}
+
 
 
 

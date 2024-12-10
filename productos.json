@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "nombre": "Eco Twist con pico 500 ml",
+    "descripcion": "Botella con tapa y pico para beber con facilidad. Incluye correa para sujetarla en la mochila, bolso o cartera. Elegí tu color favorito y llevala a todos lados No apta para freezer, bebidas calientes ni gaseosas",
+    "precio": "9.999",
+    "imagen": "img/ECOFUCSIACONLOGO_600x.webp"
+  },
+  {
+    "id": 2,
+    "nombre": "Eco AquaVibe 2 litros LILA",
+    "descripcion": "Perfecta para que alcances tu objetivo diario de hidratación fácilmente. No apta para bebidas gaseosas ni freezer. Manija resistente para trasladar. Diseño con escala de medidas en su dorso..",
+    "precio": "24.999",
+    "imagen": "img/aquavibe-lila.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Disney Botella Térmica Pico 510 ml",
+    "descripcion": "Ideal para transportar y mantener la temperatura de tus bebidas. <br/>Con correa, fácil de transportar. <br/>Cuenta con una doble pared de Acero Inoxidable.",
+    "precio": "54.999",
+    "imagen": "img/635496-DISNEY_BOT_TERM_PICO_MIN_510ML_600x.webp"
+  },
+  {
+    "id": 4,
+    "nombre": "Hermético Poeme Kids 500 ml",
+    "descripcion": "Para guardar alimentos en la heladera y mantenerlos frescos por mas tiempo. Hay diversos tamaños y colores, con motivos infantiles y para el resto de la familia. Sello 100 % hermético.",
+    "precio": "12.000",
+    "imagen": "img/630948-HERMERICOPOEMEUNICORNIO500ML_600x.webp"
+  },
+  {
+    "id": 5,
+    "nombre": "Toque Mágico Harina 3,1 lt (1 Kilo)",
+    "descripcion": "Para decorar la alacena e identificar su contenido sin necesidad de abrirlo. Mantiene los alimentos secos y libres de humedad por más tiempo. Cierra automáticamente al presionar el centro y escuchar el “click. ",
+    "precio": "31.999",
+    "imagen": "img/630503-HERMETICOTOQUEMAGICOHARINA3_1LT_3_600x.webp"
+  },
+  {
+    "id": 6,
+    "nombre": "Cristalwave Redondo 1,5 lt Azul Petróleo",
+    "descripcion": "Disfrutá tus comidas como en casa. Fue diseñado para calentar alimentos en microondas. Su válvula de escape permite que el vapor se libere.",
+    "precio": "15.500",
+    "imagen": "img/639540-CRISTALWAVE_RDO_AZUL_PET_1_5LT_600x.webp"
+  }
+]
