@@ -87,6 +87,13 @@ Se incluyeron las meta etiquetas necesarias para SEO y mejorar la accesibilidad 
 
 ---
 
+
+## ACCESIBILIDAD Y USABILIDAD
+Los ALT de las imagenes de los productos los levanta dinamicamente de cada nombre de la imagen.
+Los contrastes estan validados bajo el criterio de conformidad para AA.
+
+---
+
 ## Instalación y Uso
 
 1. Clonar el repositorio o descargar el archivo ZIP.
