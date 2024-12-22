@@ -1,44 +1,98 @@
 [
   {
     "id": 1,
+    "categoria": "Beber",
     "nombre": "Eco Twist con pico 500 ml",
     "descripcion": "Botella con tapa y pico para beber con facilidad. Incluye correa para sujetarla en la mochila, bolso o cartera. Elegí tu color favorito y llevala a todos lados No apta para freezer, bebidas calientes ni gaseosas",
-    "precio": "9.999",
+    "precio": " 9999",
     "imagen": "img/ECOFUCSIACONLOGO_600x.webp"
   },
   {
     "id": 2,
+    "categoria": "Beber",
     "nombre": "Eco AquaVibe 2 litros LILA",
-    "descripcion": "Perfecta para que alcances tu objetivo diario de hidratación fácilmente. No apta para bebidas gaseosas ni freezer. Manija resistente para trasladar. Diseño con escala de medidas en su dorso..",
-    "precio": "24.999",
+    "descripcion": "Perfecta para que alcances tu objetivo diario de hidratación fácilmente. No apta para bebidas gaseosas ni freezer. Manija resistente para trasladar. Diseño con escala de medidas en su dorso.",
+    "precio": " 24999",
     "imagen": "img/aquavibe-lila.jpg"
   },
   {
     "id": 3,
+    "categoria": "Beber",
     "nombre": "Disney Botella Térmica Pico 510 ml",
-    "descripcion": "Ideal para transportar y mantener la temperatura de tus bebidas. <br/>Con correa, fácil de transportar. <br/>Cuenta con una doble pared de Acero Inoxidable.",
-    "precio": "54.999",
+    "descripcion": "Ideal para transportar y mantener la temperatura de tus bebidas. Con correa, fácil de transportar. Cuenta con una doble pared de Acero Inoxidable. Mantiene más de 10 horas la temperatura deseada.",
+    "precio": " 54999",
     "imagen": "img/635496-DISNEY_BOT_TERM_PICO_MIN_510ML_600x.webp"
   },
   {
     "id": 4,
+    "categoria": "Almacenar",
     "nombre": "Hermético Poeme Kids 500 ml",
-    "descripcion": "Para guardar alimentos en la heladera y mantenerlos frescos por mas tiempo. Hay diversos tamaños y colores, con motivos infantiles y para el resto de la familia. Sello 100 % hermético.",
-    "precio": "12.000",
+    "descripcion": "Para guardar alimentos en la heladera y mantenerlos frescos por más tiempo. Hay diversos tamaños y colores, con motivos infantiles y para el resto de la familia. Sello 100 % hermético.",
+    "precio": " 12000",
     "imagen": "img/630948-HERMERICOPOEMEUNICORNIO500ML_600x.webp"
   },
   {
     "id": 5,
+    "categoria": "Almacenar",
     "nombre": "Toque Mágico Harina 3,1 lt (1 Kilo)",
-    "descripcion": "Para decorar la alacena e identificar su contenido sin necesidad de abrirlo. Mantiene los alimentos secos y libres de humedad por más tiempo. Cierra automáticamente al presionar el centro y escuchar el “click. ",
-    "precio": "31.999",
+    "descripcion": "Para decorar la alacena e identificar su contenido sin necesidad de abrirlo. Mantiene los alimentos secos y libres de humedad por más tiempo. Cierra automáticamente al presionar el centro y escuchar el “click.",
+    "precio": " 31999",
     "imagen": "img/630503-HERMETICOTOQUEMAGICOHARINA3_1LT_3_600x.webp"
   },
   {
     "id": 6,
+    "categoria": "Transportar",
     "nombre": "Cristalwave Redondo 1,5 lt Azul Petróleo",
     "descripcion": "Disfrutá tus comidas como en casa. Fue diseñado para calentar alimentos en microondas. Su válvula de escape permite que el vapor se libere.",
-    "precio": "15.500",
+    "precio": " 15500",
     "imagen": "img/639540-CRISTALWAVE_RDO_AZUL_PET_1_5LT_600x.webp"
+  },
+  {
+    "id": 7,
+    "categoria": "Cocinar",
+    "nombre": "Pelador Plus",
+    "descripcion": "Para pelar frutas y verduras. Cáscaras duras como la de un anco. Navaja de acero inoxidable removible para facilitar su limpieza. Inserto en la punta que permite retirar impurezas. Diversos colores.",
+    "precio": " 11999",
+    "imagen": "img/pelador.png"
+  },
+  {
+    "id": 8,
+    "categoria": "Heladera",
+    "nombre": "Fiambrera Apilable",
+    "descripcion": "Ideal para conservar fiambres en la heladera de forma organizada. Tapa protectora que mantiene la frescura de los alimentos, además sirve como plato o bandeja. Compuesta por 3 piezas encastrables y 1 tapa.",
+    "precio": " 49000",
+    "imagen": "img/fiambrera.png"
+  },
+  {
+    "id": 9,
+    "categoria": "Almacenar",
+    "nombre": "Modular Bamboo 550 ml",
+    "descripcion": "Para conservar alimentos secos y mantenerlos frescos por más tiempo. Hechos de bamboo responsablemente extraído y vidrio de borosilicato. Un diseño mimimalista, muy atractivos.",
+    "precio": " 38000",
+    "imagen": "img/bamboo.png"
+  },
+  {
+    "id": 10,
+    "categoria": "Freezer",
+    "nombre": "Cubetera Gajitos",
+    "descripcion": "Ideal para hacer divertidos hielos con forma de gajo. Son apilables, fáciles de desmoldar los hielos en conjunto de la hielera diseñada por Tupperware para su funcionalidad, vienen de diversos colores.",
+    "precio": " 9899",
+    "imagen": "img/hielera.png"
+  },
+  {
+    "id": 11,
+    "categoria": "Transportar",
+    "nombre": "Slim Portavianda 590ML",
+    "descripcion": "Portavianda con divisiones. Para conservar y llevar la vianda todos lados. No solo es para niños, también lo pueden utilizar los adultos. Sus curvas redondeadas ayudar al fácil cierre. Medidas: 23 x 13 x 4,5 cm",
+    "precio": " 33000",
+    "imagen": "img/monstruos.png"
+  },
+  {
+    "id": 12,
+    "categoria": "Almacenar",
+    "nombre": "Modular Fresh Cuadrado 1,25LT    ",
+    "descripcion": "Sello Toque mágico de fácil apertura y cierre. Se cierra herméticamente con sólo presionar en el centro del sello hasta escuchar un clic. Las bases y sellos de la misma colección se encastran, optimizando espacio de guardado. ",
+    "precio": " 14999",
+    "imagen": "img/modular.png"
   }
 ]

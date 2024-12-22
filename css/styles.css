@@ -121,6 +121,12 @@ li {
     margin-bottom: 1rem;
 }
 
+.card-precio{
+color: #5a33a3;
+font-size:x-large;
+font-weight: 500;
+
+}
 .categorias-container {
     display: flex;
     justify-content: space-between;
@@ -335,11 +341,91 @@ video {
     color: white;
 }
 
+/*aca veo el tema del modal en el modo claro con la miniatura y todo*/
+
+.modal-dialog {
+    max-width: 900px; /* Hace el modal más ancho */
+}
 
 
 
+.modal-body .col-md-{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+
+.modal-body .col-md-8 {
+    padding-left: 20px;
+}
+
+.modal-body h4 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.modal-body p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.modal-footer {
+    text-align: center;
+}
+
+/* Alinear los botones a la derecha dentro del ítem del carrito */
+.action-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end; /* Alinea los botones a la derecha */
+    align-items: center;
+  }
+  
+  .action-buttons .btn {
+    background-color: #6f42c1;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .action-buttons .btn:hover {
+    background-color: #5a33a3;
+  }
+  
+  .action-buttons .btn:focus {
+    outline: none;
+  }
+
+
+
+  /* Estilo para el botón eliminar */
+.action-buttons .btn-danger {
+    background-color: #dc3545;  /* Rojo estándar de Bootstrap */
+    color: white;
+    font-size: 1rem;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Efecto hover para el botón eliminar */
+  .action-buttons .btn-danger:hover {
+    background-color: #c82333;  /* Rojo más oscuro al hacer hover */
+  }
+  
+  /* Efecto cuando el botón eliminar es enfocado */
+  .action-buttons .btn-danger:focus {
+    outline: none;
+  }
 /* Comienzo modo oscuro */
-.dark-mode {
+.dark-mode{
     background-color: #121212;
     color: #f1f1f1;
 }
@@ -390,6 +476,7 @@ video {
     background-color: #333;
 }
 
+
 .dark-mode .card {
     border-color: #555;
 }
@@ -438,6 +525,48 @@ video {
 
 
 
+/* Modal en modo oscuro */
+.dark-mode .modal-content {
+    background-color: #333; /* Fondo oscuro */
+    color: #f1f1f1; /* Texto blanco */
+}
+
+.dark-mode .modal-header,
+.dark-mode .modal-footer {
+    background-color: #444; /* Color oscuro para el header y footer */
+    color: #f1f1f1; /* Texto blanco */
+}
+
+.dark-mode .btn-primary {
+    background-color: #6f42c1;
+    border: 1px solid #6f42c1;
+    color: white;
+}
+
+.dark-mode .btn-primary:hover {
+    background-color: #5a33a3;
+    border-color: #5a33a3;
+    color: white;
+}
+
+.dark-mode .modal-body {
+    background-color: #333; /* Fondo oscuro para el cuerpo del modal */
+    color: #f1f1f1; /* Texto claro */
+}
+
+/* Botones en el modal en modo oscuro */
+.dark-mode .btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.dark-mode .btn-danger:hover {
+    background-color: #c82333;
+    border-color: #c82333;
+}
+
+
+
 
 /* Estilos para pantallas más pequeñas */
 @media (max-width: 768px) {
@@ -459,5 +588,10 @@ video {
     .categoria-card {
         font-size: 0.8em;
         padding: 6px;
+    }
+}
+@media (max-width: 480px) {
+    .card {
+        flex: 0 1 100%;  /* Ajusta aún más para pantallas muy pequeñas */
     }
 }
